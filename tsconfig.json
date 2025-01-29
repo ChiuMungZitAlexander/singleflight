@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "CommonJS",
-    "esModuleInterop": true,
-    "moduleResolution": "node",
+    "outDir": "dist",
+    "module": "ESNext",
+    "target": "ES2015",
+    "lib": ["ES2015", "ES2018.Promise"],
+    "declaration": true,
+    "declarationDir": "dist/types",
     "strict": true,
-    "useDefineForClassFields": false,
-    "resolveJsonModule": true
-  }
+    "esModuleInterop": true
+  },
+  "include": ["src"],
+  "exclude": ["**/*.spec.ts", "**/__tests__"]
 }
