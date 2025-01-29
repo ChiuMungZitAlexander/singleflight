@@ -1,8 +1,12 @@
 {
-  "name": "single-flight",
+  "name": "@amz/singleflight",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "singleflight is a utility that prevents duplicate asynchronous operations by ensuring that only one execution per unique key is in progress at a time, reducing redundant processing and improving efficiency.",
+  "author": "Alexander Zhao <alexandermzchiu@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ChiuMungZitAlexander/singleflight.git"
+  },
   "license": "MIT",
   "packageManager": "pnpm@10.2.0",
   "engines": {
