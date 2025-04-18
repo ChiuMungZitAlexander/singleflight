@@ -57,7 +57,7 @@ class SingleFlight {
         _SingleFlight_flightsMap.set(this, new Map());
     }
     do(key, fn) {
-        return __awaiter(this, undefined, undefined, function* () {
+        return __awaiter(this, void 0, void 0, function* () {
             if (__classPrivateFieldGet(this, _SingleFlight_flightsMap, "f").has(key)) {
                 return __classPrivateFieldGet(this, _SingleFlight_flightsMap, "f").get(key);
             }
